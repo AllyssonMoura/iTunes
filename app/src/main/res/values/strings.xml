@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AppMusic</string>
+    <string name="btentrar">ENTRAR</string>
+    <string name="btcad">CADASTRAR-ME</string>
+    <string name="btconta">ESQUECI A CONTA</string>
+    <string name="etnome">Usuário</string>
+    <string name="etsenha">Senha</string>
+    <string name="btswitch">Relembre-me</string>
+</resources>

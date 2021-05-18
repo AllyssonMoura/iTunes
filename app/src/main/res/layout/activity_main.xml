@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="80dp" />
+
+            <ImageView
+                android:id="@+id/imglogo"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="160dp"
+                app:srcCompat="@drawable/itunes" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="99dp" />
+
+            <EditText
+                android:id="@+id/etnome"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="155px"
+                android:background="@drawable/border_text"
+                android:ems="10"
+                android:hint="@string/etnome"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColorHint="@android:color/background_light" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="14dp" />
+
+            <EditText
+                android:id="@+id/etsenha"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="155px"
+                android:background="@drawable/border_text"
+                android:ems="10"
+                android:hint="@string/etsenha"
+                android:inputType="textPassword"
+                android:textAlignment="center"
+                android:textColorHint="@android:color/background_light" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="14dp"
+                android:textAlignment="center" />
+
+            <Switch
+                android:id="@+id/btswitch"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="300px"
+                android:background="@drawable/border_text"
+                android:text="@string/btswitch"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                tools:text="@string/btswitch" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="14dp" />
+
+            <Button
+                android:id="@+id/btentrar"
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="230px"
+                android:background="@drawable/border_button"
+                android:text="@string/btentrar"
+                android:textColor="@android:color/background_light" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="14dp" />
+
+            <Button
+                android:id="@+id/btcad"
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="230px"
+                android:background="@drawable/border_button"
+                android:text="@string/btcad"
+                android:textColor="@android:color/background_light"
+                tools:text="@string/btcad" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="14dp" />
+
+            <Button
+                android:id="@+id/btconta"
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="230px"
+                android:background="@drawable/border_button"
+                android:text="@string/btconta"
+                android:textColor="@android:color/background_light" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
